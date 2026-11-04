@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Outside the Box is a magnetic puzzle game where every pull reshapes the path.">
+  <meta name="theme-color" content="#081b2d">
+  <title>Outside the Box — A Magnetic Puzzle</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="field field-one" aria-hidden="true"></div>
+  <div class="field field-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Outside the Box home">
+      <span>OUTSIDE</span>
+      <strong>THE BOX</strong>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#game">The game</a>
+      <a href="#features">Features</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="game">
+      <div class="hero-copy">
+        <p class="eyebrow">A magnetic puzzle</p>
+        <h1>Bend the field.<br><em>Find the path.</em></h1>
+        <p class="lede">Guide a steel ball through handcrafted and generated mazes using a magnet outside the glass. Every pull is a choice; every wall changes the solution.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#features">Explore the game</a>
+          <a class="button quiet" href="privacy.html">Read our privacy policy</a>
+        </div>
+        <p class="availability">Coming to Google Play</p>
+      </div>
+
+      <div class="game-card" aria-label="Illustration of the Outside the Box puzzle board">
+        <div class="board">
+          <span class="goal" aria-hidden="true"></span>
+          <span class="wall wall-a" aria-hidden="true"></span>
+          <span class="wall wall-b" aria-hidden="true"></span>
+          <span class="wall wall-c" aria-hidden="true"></span>
+          <span class="ball" aria-hidden="true"></span>
+          <span class="magnet" aria-hidden="true"><i></i></span>
+          <span class="line line-a" aria-hidden="true"></span>
+          <span class="line line-b" aria-hidden="true"></span>
+          <span class="line line-c" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="principle" aria-labelledby="principle-title">
+      <p class="section-number">01</p>
+      <div>
+        <p class="eyebrow">One simple interaction</p>
+        <h2 id="principle-title">The magnet stays outside.<br>The possibilities do not.</h2>
+      </div>
+      <p>Drag around the perimeter and let magnetic force do the rest. Momentum, narrow passages, changing surfaces and new chapter mechanics turn a familiar gesture into a deep spatial puzzle.</p>
+    </section>
+
+    <section class="features" id="features" aria-labelledby="features-title">
+      <div class="section-heading">
+        <p class="eyebrow">Built for thoughtful play</p>
+        <h2 id="features-title">A puzzle that evolves with you.</h2>
+      </div>
+      <div class="feature-grid">
+        <article>
+          <span>01</span>
+          <h3>Magnetic control</h3>
+          <p>Pull the ball naturally with a responsive magnet designed for touch screens.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Distinct chapters</h3>
+          <p>New surfaces, field behaviours and obstacles introduce a fresh challenge chapter by chapter.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Endless puzzles</h3>
+          <p>After the campaign, an endless vault combines the toughest mechanics into new layouts.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>Cloud progress</h3>
+          <p>Google Play Games or guest sign-in keeps progress connected to a secure Unity player profile.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="trust" aria-labelledby="trust-title">
+      <div>
+        <p class="eyebrow">Privacy by design</p>
+        <h2 id="trust-title">Clear choices.<br>No hidden maze.</h2>
+      </div>
+      <div>
+        <p>We use account, gameplay and service data only to operate the game, save progress, provide leaderboards, improve reliability and—where enabled—support advertising.</p>
+        <a class="text-link" href="privacy.html">See exactly how data is handled <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand small" href="index.html"><span>OUTSIDE</span><strong>THE BOX</strong></a>
+    <p>© <span id="year">2026</span> Outside the Box. All rights reserved.</p>
+    <div>
+      <a href="privacy.html">Privacy policy</a>
+      <a href="mailto:palashparate009@gmail.com">Support</a>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
